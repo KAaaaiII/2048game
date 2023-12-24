@@ -20,6 +20,13 @@ public:
 		HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
 		SetConsoleCursorInfo(hOut, &cursor);
 	}
+	void run() {//游戏运行函数
+		system("title 2048");//利用system设置窗口名称
+		hideCursor();//隐藏光标，否则影响观感
+		while (1) {//开始游戏
+
+		}
+	}
 protected:
 	int Map[N + 2][N + 2];//地图二维数组
 	int score;//分数
