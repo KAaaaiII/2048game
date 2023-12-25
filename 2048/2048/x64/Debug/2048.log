@@ -1,2 +1,4 @@
 ﻿  source.cpp
+D:\华科\23上学期\CPP\2048\2048game\2048\2048\source.cpp(38,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\华科\23上学期\CPP\2048\2048game\2048\2048\source.cpp(265,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
   2048.vcxproj -> D:\华科\23上学期\CPP\2048\2048game\2048\x64\Debug\2048.exe
